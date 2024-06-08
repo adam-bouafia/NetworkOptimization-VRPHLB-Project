@@ -182,6 +182,9 @@ pos = {i:(G.nodes[i]['x'] * args.scale, G.nodes[i]['y'] * args.scale) for i in G
 
 DrawInitG(G)
 
+DrawSol(G,x)
+
+'''
 
 # Results
 ## After running the model, the optimal routes and locker box assignments were visualized to illustrate the solution. The results showed a significant improvement in delivery efficiency by utilizing locker boxes.
