@@ -9,13 +9,13 @@ G = nx.DiGraph()
 G.add_node(0, label="Depot", type="depot", x=random.uniform(0, 100), y=random.uniform(0, 100))
 
 # Add customers
-for i in range(1, 31):  # Increase the number of customers to 30
+for i in range(1, 31):
     earliest_time = random.randint(8, 10)
     latest_time = random.randint(11, 12)
     G.add_node(i, label=f"Customer {i}", type="customer", demand=random.randint(1, 5), earliest=earliest_time, latest=latest_time, x=random.uniform(0, 100), y=random.uniform(0, 100))
 
 # Add locker boxes
-for i in range(31, 41):  # Increase the number of locker boxes to 10
+for i in range(31, 41):
     G.add_node(i, label=f"Locker {i-30}", type="locker", capacity=random.randint(10, 20), x=random.uniform(0, 100), y=random.uniform(0, 100))
 
 # Add edges with random weights
