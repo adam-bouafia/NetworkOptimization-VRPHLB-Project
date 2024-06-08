@@ -186,11 +186,11 @@ DrawSol(G,x)
 
 ```
 
-# Results
-## After running the model, the optimal routes and locker box assignments were visualized to illustrate the solution. The results showed a significant improvement in delivery efficiency by utilizing locker boxes.
+## Results
+After running the model, the optimal routes and locker box assignments were visualized to illustrate the solution. The results showed a significant improvement in delivery efficiency by utilizing locker boxes.
 
-# Conclusion
-## The implementation of the VRPHLB using MILP and Gurobi demonstrates the potential for optimizing last-mile delivery through the use of locker boxes. This approach not only reduces delivery costs but also increases customer convenience. Future work could explore dynamic locker box capacities and real-time route adjustments.
+## Conclusion
+The implementation of the VRPHLB using MILP and Gurobi demonstrates the potential for optimizing last-mile delivery through the use of locker boxes. This approach not only reduces delivery costs but also increases customer convenience. Future work could explore dynamic locker box capacities and real-time route adjustments.
 
-# References
-## Grabenschweiger, J., Doerner, K. F., Hartl, R. F., & Savelsbergh, M. W. P. (2021). The vehicle routing problem with heterogeneous locker boxes. Central European Journal of Operations Research, 29, 113–142. https://doi.org/10.1007/s10100-020-00725-2
+## References
+Grabenschweiger, J., Doerner, K. F., Hartl, R. F., & Savelsbergh, M. W. P. (2021). The vehicle routing problem with heterogeneous locker boxes. Central European Journal of Operations Research, 29, 113–142. https://doi.org/10.1007/s10100-020-00725-2
