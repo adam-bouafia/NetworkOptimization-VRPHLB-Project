@@ -38,7 +38,7 @@ The Vehicle Routing Problem with Heterogeneous Locker Boxes (VRPHLB) is an exten
 
 ## Mathematical Model
 
-![Mathematical Model](https://imgur.com/a/DivNgtG)
+![Mathematical Model](https://i.imgur.com/3vidrbt.png)
 
 ### Discussion on MILP
 
